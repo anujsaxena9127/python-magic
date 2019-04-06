@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('VID_20180907_160252.mp4')
+cap = cv2.VideoCapture('VID_20180907_160252.mp4') #you can add your video file path in this area
 fgbg = cv2.createBackgroundSubtractorMOG2()
 
 while (1):
